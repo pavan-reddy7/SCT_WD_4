@@ -1,6 +1,6 @@
-# 🚀 TaskFlow
+# TaskFlow
 
-A modern and responsive To-Do Web Application built with HTML, CSS, and JavaScript to help users stay organized, manage tasks efficiently, and improve productivity.
+TaskFlow is a modern, responsive, and feature-rich To-Do Web Application designed to help users organize daily activities, manage priorities, track progress, and improve productivity. Built using HTML, CSS, and JavaScript, TaskFlow provides a clean user experience with powerful task management features while keeping the application lightweight and easy to use.
 
 ## ✨ Features
 
