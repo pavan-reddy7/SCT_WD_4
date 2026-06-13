@@ -1,53 +1,93 @@
-# TaskFlow — Modern To-Do Web Application
+# 🚀 TaskFlow
 
-TaskFlow is a premium, modern, high-performance To-Do application built using vanilla web technologies. It features a stunning high-contrast **Black + Yellow** (Lamborghini/NVIDIA-inspired) design aesthetic, fluid micro-animations, and a responsive SaaS-like container layout.
-
----
+A modern and responsive To-Do Web Application built with HTML, CSS, and JavaScript to help users stay organized, manage tasks efficiently, and improve productivity.
 
 ## ✨ Features
 
-- **Premium Lamborghini/NVIDIA Theme:** Sleek dark mode (`#0A0A0A` deep charcoal and `#FFD60A` yellow highlights) paired with a high-contrast light mode featuring solid black borders (`#000000`).
-- **Centered SaaS Layout:** Proportional container width (`width: 75%; max-width: 1200px`) modeled after modern SaaS tools like Notion, Linear, and Todoist, providing balanced side margins.
-- **Advanced Task Management:**
-  - Dynamic statistics tracking (Total, Active, Completed, Missed tasks).
-  - Immediate task deletion (no confirmation dialogs) with smooth slide-out animations.
-  - Action buttons (Edit & Delete) automatically hide on completed tasks to preserve focus (reactivate the task to show options again).
-- **Future-Only Date & Time Validation:** Due dates and times are optional, but if specified, are validated to ensure they represent future moments, displaying helper toasts for past inputs.
-- **One-Time Name Modal:** Greets users on their first visit. If dismissed, it hides the greeting area without re-prompting timers, keeping the branding logo (`✓ TaskFlow`) visible.
-- **Export & Import Tools:**
-  - Export tasks directly as spreadsheet-ready **CSV** files or raw **JSON** backups.
-  - Import task lists from local JSON files.
-- **Static Developer Credits:** The footer statically attributes development to **Pavan Reddy**.
-- **Interactive Search and Filters:** Find tasks in real time by title/description, filter them (`All`, `Active`, `Completed`, `Missed`), and sort them (due date, created date, priority, alphabetical).
+* 📝 Create, Edit, and Delete Tasks
+* ✅ Mark Tasks as Completed
+* 🎯 Priority Levels (Low, Medium, High)
+* 📅 Due Date & Time Support
+* 🔍 Search Tasks Instantly
+* 📂 Filter Tasks (All, Active, Completed, Missed)
+* 📊 Real-Time Task Statistics
+* 🌙 Dark Mode & ☀️ Light Mode
+* 👤 Personalized User Greeting
+* 💾 Local Storage Persistence
+* 📤 Export Tasks
+* 📥 Import Tasks
+* 📱 Fully Responsive Design
 
----
+## 🖥️ Preview
 
-## 🛠️ Technology Stack
+### Dashboard
 
-- **Structure:** Semantic HTML5 Markup
-- **Styling:** Custom Vanilla CSS3 (using CSS variables, CSS flexbox/grid layouts, keyframe animations, and custom media queries)
-- **Logic:** Vanilla ES6+ JavaScript (compiled directly in-browser, referencing local storage for persistent data storage)
+Add your dashboard screenshot here.
 
----
+### Task Management
+
+Add your task management screenshot here.
+
+### Completed Tasks
+
+Add your completed tasks screenshot here.
+
+## 🛠️ Built With
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* Local Storage API
+
+## 📁 Project Structure
+
+```text
+TaskFlow/
+│
+├── index.html
+├── style.css
+├── script.js
+├── screenshots/
+└── README.md
+```
+
+## 🎯 Key Highlights
+
+* Clean and modern UI
+* Responsive across devices
+* Fast and lightweight
+* No external backend required
+* Data saved locally in browser storage
+* User-friendly task organization system
 
 ## 🚀 Getting Started
 
-No installation, compilation, or web servers are required!
+1. Clone the repository
 
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/your-username/TO-DO_app.git
-   ```
-2. Open `index.html` directly in any modern web browser (Chrome, Firefox, Edge, Safari, Brave, etc.) to start using TaskFlow.
+```bash
+git clone https://github.com/yourusername/taskflow.git
+```
 
----
+2. Open the project folder
 
-## 📂 Project Structure
+3. Run `index.html` in your browser
 
-- `index.html` — Application structure, modals, header logo/greeting layout, stats-bar, add-task form, toolbar, lists, and footer.
-- `style.css` — Global CSS custom properties (design tokens), Lamborghini dark theme, high-contrast light theme, layout structures, component elements, responsive grid setups, animations, and typography.
-- `script.js` — Core application logic including task CRUD processes, date/time validation checks, name modal workflows, export-to-CSV/JSON helpers, animation state management, local storage handling, and event listeners.
+No installation or backend setup required.
 
----
+## 🌟 Future Enhancements
 
-*Developed with ♥ by Pavan Reddy.*
+* Task Categories
+* Notifications & Reminders
+* Calendar Integration
+* Drag & Drop Task Management
+* Cloud Sync Support
+
+## 👨‍💻 Developer
+
+**Pavan Kumar Reddy**
+
+Built as part of a Web Development Internship Project.
+
+## ⭐ Support
+
+If you like this project, consider giving it a star on GitHub.
